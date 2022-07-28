@@ -36,7 +36,7 @@ body{
     left: 50%;
     transform: translateX(-50%);
     top: 3rem;
-    background-color: darkmagenta;
+    background-color:#a0512d83;
     color: white;
     font-size: 1.3rem;
     margin-bottom: 2rem;
@@ -85,19 +85,19 @@ body{
 }
 .temp{
     grid-area:  temperature;
-    background-color: chartreuse;
+    background-color:#4582b4;
     font-size: 3rem;
 
    
 }
 .wind{
     grid-area: vent;
-    background-color: rgb(218, 165, 32);
+    background-color: #9370db
     
 }
 .humidity{
     grid-area: humidite;
-    background-color: magenta
+    background-color: #ff69b4
     
 }
 .description{
@@ -129,7 +129,7 @@ body{
     text-align: center;
     background-color: aqua;
     box-shadow: -3px -5px rgba(0, 0, 0, 0.526);
-    width: 80%;
+    width: 70%;
     margin: 10px auto;
     font-size: 1.5rem;
     font-weight: bold;
