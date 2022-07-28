@@ -23,7 +23,7 @@ body{
    left: 2rem;
    width: 5rem;
    height: 5em;
-   background: url(" ./images&fontes/soleil22.jpg") center/cover no-repeat;
+   background: url("./images&fontes/soleil22.jpg") center/cover no-repeat;
    width: 150px;
    height: 150px;
    border-radius: 300px;
@@ -80,24 +80,24 @@ body{
 }
 .city{
     grid-area: ville;
-    background-color: rgb(109, 0, 211);
+    background-color: #952f8755
     
 }
 .temp{
     grid-area:  temperature;
-    background-color:#4582b4;
+    background-color:#4582b44b;
     font-size: 3rem;
 
    
 }
 .wind{
     grid-area: vent;
-    background-color: #9370db
+    background-color: #9470d46e
     
 }
 .humidity{
     grid-area: humidite;
-    background-color: #ff69b4
+    background-color: #ff69b476
     
 }
 .description{
