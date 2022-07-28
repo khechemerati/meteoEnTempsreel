@@ -1,0 +1,138 @@
+body{
+    background: url("./images&fontes/foret.jpg") center/cover no-repeat;
+}
+
+
+#app{
+
+    width: 70%;
+  
+ background: url("./images&fontes/galaxie.jpg") center/cover no-repeat;
+    margin: auto;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    border: solid darkcyan 2px;
+ 
+    
+    
+    border-radius: 20px;
+}
+.soleil22{
+   position: absolute;
+   left: 2rem;
+   width: 5rem;
+   height: 5em;
+   background: url(" ./images&fontes/soleil22.jpg") center/cover no-repeat;
+   width: 150px;
+   height: 150px;
+   border-radius: 300px;
+ left: 10px;
+ top: 20px;
+}
+
+.zone{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3rem;
+    background-color: darkmagenta;
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    border: none;border-radius: 10px;
+    text-align: center;
+
+}
+.app-global{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "ville temperature"
+     "vent  humidite";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 7rem;
+    margin: 10px auto;
+   height: 57%;
+   
+    
+   
+ 
+    
+}
+.global{
+    width: 190px;
+    height: 190PX;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: beige;
+    padding-top: 50px;
+    font-size: 2rem;
+  
+    
+  
+    
+}
+.city{
+    grid-area: ville;
+    background-color: rgb(109, 0, 211);
+    
+}
+.temp{
+    grid-area:  temperature;
+    background-color: chartreuse;
+    font-size: 3rem;
+
+   
+}
+.wind{
+    grid-area: vent;
+    background-color: rgb(218, 165, 32);
+    
+}
+.humidity{
+    grid-area: humidite;
+    background-color: magenta
+    
+}
+.description{
+    grid-area: description;
+}
+@media screen and (max-width:500px) {
+    #app,.app-global{
+        display: block;
+        height: 150vh;
+    }
+    .soleil22{
+        width: 50px;
+        height: 50px;
+        border-radius: 300px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+       
+    }
+    .zone{
+        width: 50%;
+        font-size: 1rem;
+    }
+    .app-global{
+        height: 77%;
+    }
+}
+.copyright{
+    text-align: center;
+    background-color: aqua;
+    box-shadow: -3px -5px rgba(0, 0, 0, 0.526);
+    width: 80%;
+    margin: 10px auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px ;
+}
