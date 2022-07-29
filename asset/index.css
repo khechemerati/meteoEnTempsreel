@@ -1,5 +1,5 @@
 body{
-    background: url("./asset/foret.jpg") center/cover no-repeat;
+    background: url("../asset/foret.jpg") center/cover no-repeat;
 }
 
 
@@ -7,15 +7,11 @@ body{
 
     width: 70%;
   
- background: url("./asset/galaxie.jpg") center/cover no-repeat;
+ background: url("../asset/galaxie.jpg") center/cover no-repeat;
     margin: auto;
     height: 100vh;
     overflow: hidden;
     position: relative;
-   
- 
-    
-    
     border-radius: 20px;
 }
 .soleil22{
@@ -23,7 +19,7 @@ body{
    left: 2rem;
    width: 5rem;
    height: 5em;
-   background: url("./asset/soleil22.jpg") center/cover no-repeat;
+   background: url("../asset/soleil22.jpg") center/cover no-repeat;
    width: 150px;
    height: 150px;
    border-radius: 300px;
