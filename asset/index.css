@@ -76,24 +76,24 @@ body{
 }
 .city{
     grid-area: ville;
-    background-color: #952f8755
+    background-color: #952f877e
     
 }
 .temp{
     grid-area:  temperature;
-    background-color:#4582b44b;
+    background-color:#4582b46b;
     font-size: 3rem;
 
    
 }
 .wind{
     grid-area: vent;
-    background-color: #9470d46e
+    background-color: #9570d48d
     
 }
 .humidity{
     grid-area: humidite;
-    background-color: #ff69b476
+    background-color: #ff69b498
     
 }
 .description{
