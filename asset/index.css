@@ -47,11 +47,12 @@ body{
     grid-template-rows: 1fr 1fr 1fr ;
     grid-template-areas: 
     "ville temperature"
-     "vent  humidite";
+     "vent  humidite"
+     "description temp_min_max";
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 7rem;
+    top: 4rem;
     margin: 10px auto;
    height: 57%;
    
@@ -98,11 +99,18 @@ body{
 }
 .description{
     grid-area: description;
+    background:  #128f859d
 }
-@media screen and (max-width:500px) {
+
+.temp_min_max{
+    grid-area: temp_min_max;
+    background: rgba(255, 140, 0, 0.517);
+}
+
+@media screen and (max-width:600px) {
     #app,.app-global{
-        display: block;
-        height: 150vh;
+        display: grid;
+        height: 90vh;;
     }
     .soleil22{
         width: 50px;
@@ -120,6 +128,15 @@ body{
     .app-global{
         height: 77%;
     }
+    .global{
+        height: 150px;
+        width: 150px;
+        font-size: 1.3rem;
+       }
+       #app{
+        background: nom;
+       }
+
 }
 .copyright{
     text-align: center;
@@ -131,4 +148,7 @@ body{
     font-weight: bold;
     border-top-left-radius: 15px;
     border-top-right-radius:15px ;
+}
+ul li {
+    list-style-type: none;
 }
